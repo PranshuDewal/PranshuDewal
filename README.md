@@ -3,8 +3,9 @@
 # Enterprise Platform Delivery
 
 # Pranshu Mohan Dewal
-Technology leader in enterprise delivery, data platforms, and applied AI.
-This repository documents how I have led and delivered large-scale, data-intensive enterprise platforms in production environments across energy, transportation, and other regulated domains.
+Technology leader in enterprise delivery, data platforms, and applied AI. I care deeply about building lean systems that work in the real world—under scale, navigating regulation and long-term operational constraints.
+
+This repository documents how I have led and delivered large-scale, data-intensive enterprise platforms in production environments across energy, transportation, and other regulated domains. This repository is intended as a practical reference for teams operating in high-stakes production environments. 
 
 The focus is execution: system design, delivery governance, data integrity, cutover discipline, and post-production stabilization.
 
@@ -29,20 +30,28 @@ Across the patterns documented here, my role included:
 - Data quality and governance controls applied during migration
 - Optimization approaches used to reduce cost, risk, and delivery time
 
-This repository is intended as a practical reference for teams operating
-in high-stakes production environments.
+- Architecture: [Reference architecture](architecture/reference-architecture.md)
+- Delivery lifecycle:
+  - [Roadmap and phasing](delivery/roadmap-and-phasing.md)
+  - [Release and governance](delivery/release-and-governance.md)
+  - [Stabilization playbook](delivery/stabilization-playbook.md)
+- Data:
+  - [Data governance framework](data/data-governance-framework.md)
+  - [Data quality controls (SQL)](data/data-quality-controls.sql)
+- Optimization:
+  - [Optimization approach](ai/optimization-approach.md)
 
 
-I care deeply about building lean systems that work in the real world—under scale, navigating regulation and long-term operational constraints.
 
 ## Selected Evidence
+
 - **Enterprise Data Platform Delivery**  
-  Patterns for migrations, governance, cutovers, and stabilization.  
-  (link to repo)
+  Patterns for large-scale migrations, data governance, release management, cutovers, and stabilization.  
+  https://github.com/PranshuDewal/enterprise-platform-delivery
 
 - **Analytics & Dashboarding at Scale**  
-  Ingestion, metric integrity, dashboard design, and operational support patterns.  
-  (link to repo)
+  API ingestion, metric definition and validation, dashboard design, and operational support patterns used in production.  
+  https://github.com/PranshuDewal/analytics-and-reporting-platforms
 
 ## Leadership
 - Clear decision-making (ADRs, go/no-go criteria, documented tradeoffs)
